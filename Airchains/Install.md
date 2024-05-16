@@ -24,9 +24,9 @@
 
 **Addrbook.json:** https://snapshot-airchains.johnvnb.com/addrbook.json
 
-**Snapshot:** https://github.com/johnt9x/Testnet-Airchains/blob/main/Snapshot
+**Snapshot:** https://github.com/johnt9x/Testnet/Airchains/blob/main/Snapshot
 
-**Statesync:** https://github.com/johnt9x/Testnet-Airchains/blob/main/Statesync
+**Statesync:** https://github.com/johnt9x/Testnet/Airchains/blob/main/Statesync
 
 # Manual node setup
 Here you have to put name of your moniker (validator) that will be visible in explorer
