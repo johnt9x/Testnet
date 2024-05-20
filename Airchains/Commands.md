@@ -20,34 +20,34 @@ junctiond q bank balances $(junctiond keys show wallet -a)
 Create validator
 ```
 junctiond tx staking create-validator \
---amount=10000000amf \
---pubkey=$(junctiond tendermint show-validator) \
---moniker=$MONIKER \
---identity="YOUR_KEYBASE_ID" \
---details="YOUR_DETAILS" \
---website="YOUR_WEBSITE_URL" \
---chain-id=junction \
---commission-rate=0.10 \
---commission-max-rate=0.20 \
---commission-max-change-rate=0.01 \
---min-self-delegation=1000 \
---from=wallet \
---gas-adjustment=1.5 \
---fees=200amf \ 
--y
+  --amount=10000000amf \
+  --pubkey=$(junctiond tendermint show-validator) \
+  --moniker=$MONIKER \
+  --identity="YOUR_KEYBASE_ID" \
+  --details="YOUR_DETAILS" \
+  --website="YOUR_WEBSITE_URL" \
+  --chain-id=junction \
+  --commission-rate=0.10 \
+  --commission-max-rate=0.20 \
+  --commission-max-change-rate=0.01 \
+  --min-self-delegation=1000 \
+  --from=wallet \
+  --gas-adjustment=1.5 \
+  --fees=200amf \ 
+  -y
 ```
 Edit validator
 ```
 junctiond tx staking edit-validator \
---new-moniker="YOUR MONIKER" \
---identity="IDENTITY KEYBASE" \
---details="DETAILS VALIDATOR" \
---website="LINK WEBSITE" \
---chain-id=junction \
---from=wallet \
---gas-adjustment=1.5 \
---fees=200amf \
--y
+  --new-moniker="YOUR MONIKER" \
+  --identity="IDENTITY KEYBASE" \
+  --details="DETAILS VALIDATOR" \
+  --website="LINK WEBSITE" \
+  --chain-id=junction \
+  --from=wallet \
+  --gas-adjustment=1.5 \
+  --fees=200amf \
+  -y
 ```
 Unjail
 ```
