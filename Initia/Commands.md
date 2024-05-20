@@ -19,7 +19,7 @@ initiad q bank balances $(initiad keys show wallet -a)
 ## Managing validators
 Create validator
 ```
-initiad tx staking create-validator \
+initiad tx mstaking create-validator \
   --amount=10000000uinit \
   --pubkey=$(initiad tendermint show-validator) \
   --moniker=$MONIKER \
@@ -39,7 +39,7 @@ initiad tx staking create-validator \
 ```
 Edit validator
 ```
-initiad tx staking edit-validator \
+initiad tx mstaking edit-validator \
   --new-moniker="YOUR MONIKER" \
   --identity="IDENTITY KEYBASE" \
   --details="DETAILS VALIDATOR" \
@@ -61,14 +61,14 @@ initiad keys show wallet --bech val -a
 ```
 Query active validators
 ```
-initiad q staking validators -o json --limit=1000 \
+initiad q mstaking validators -o json --limit=1000 \
 | jq '.validators[] | select(.status=="BOND_STATUS_BONDED")' \
 | jq -r '.tokens + " - " + .description.moniker' \
 | sort -gr | nl
 ```
 Query inactive validators
 ```
-initiad q staking validators -o json --limit=1000 \
+initiad q mstaking validators -o json --limit=1000 \
 | jq '.validators[] | select(.status=="BOND_STATUS_UNBONDED")' \
 | jq -r '.tokens + " - " + .description.moniker' \
 | sort -gr | nl
@@ -77,7 +77,7 @@ initiad q staking validators -o json --limit=1000 \
 ## Managing Tokens
 Delegate tokens to your validator
 ```
-initiad tx staking delegate $(initiad keys show wallet --bech val -a)  1000000uinit --from wallet --chain-id initiation-1 --gas=auto -y
+initiad tx mstaking delegate $(initiad keys show wallet --bech val -a)  1000000uinit --from wallet --chain-id initiation-1 --gas=auto -y
 ```
 Send token
 ```
@@ -93,7 +93,7 @@ initiad tx distribution withdraw-rewards $(initiad keys show wallet --bech val -
 ```
 Redelegate to another validator
 ```
-initiad tx staking redelegate $(initiad keys show wallet --bech val -a) <to-valoper-address> 1000000stake --from wallet --chain-id initiation-1 --gas-adjustment 1.4 --gas auto --fees=300000uinit -y
+initiad tx mstaking redelegate $(initiad keys show wallet --bech val -a) <to-valoper-address> 1000000stake --from wallet --chain-id initiation-1 --gas-adjustment 1.4 --gas auto --fees=300000uinit -y
 ```
 
 ## Governance
