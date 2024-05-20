@@ -142,6 +142,7 @@ Get peers live
 curl -sS http://localhost:10357/net_info | jq -r '.result.peers[] | "\(.node_info.id)@\(.remote_ip):\(.node_info.listen_addr)"' | awk -F ':' '{print $1":"$(NF)}'
 ```
 ## Remove node
+```
 sudo systemctl stop junction
 sudo systemctl disable junction
 rm /etc/systemd/system/junction.service
@@ -149,3 +150,4 @@ sudo systemctl daemon-reload
 cd $HOME
 rm -rf .junction
 rm -rf $(which junctiond)
+```
