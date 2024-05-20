@@ -16,7 +16,7 @@
 
 **API:** https://api-initia.johnvnb.com/
 
-**GRPC:** https://grpc-initia.johnvnb.com/
+**GRPC:** grpc-initia.johnvnb.com:11790
 
 # Manual node setup
 Here you have to put name of your moniker (validator) that will be visible in explorer
