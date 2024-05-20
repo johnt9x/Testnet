@@ -12,9 +12,9 @@
 |   **Port**  |        117               | 
 
 
-**RPC:** https://rpc-initia.johnvnb.com/
+**RPC:** https://rpc.initia.johnvnb.com/
 
-**API:** https://api-initia.johnvnb.com/
+**API:** https://api.initia.johnvnb.com/
 
 **GRPC:** grpc-initia.johnvnb.com:11790
 
