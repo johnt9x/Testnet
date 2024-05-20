@@ -77,7 +77,7 @@ curl -Ls https://initia.s3.ap-southeast-1.amazonaws.com/initiation-1/genesis.jso
 ## Configure
 ```
 SEEDS=""
-PEERS=$(curl -s https://raw.githubusercontent.com/Sebatian1/Cosmos/main/Initia/Peers.txt)
+PEERS="028c3db8c2658887f5714432c21cb53d8c8aa0be@155.133.27.151:14656,9ea146b73504a8cb2d8269f50b736c1d3e4f54a4@154.12.229.0:53456,b9b043fb2f836c0dafe9faa287a5f49c4b05cd13@46.38.241.12:53456,cea76d6adcadd2ed767beaa1646698fae5b6b21d@213.199.50.157:53456,8daae173125d3ba7d7e75c84ff4224e3ee0beb84@45.94.58.167:26656,576e44d27629e338f0a3dcf5e6b20f0f73fa1ade@185.205.244.202:26756,27c51d5794e563eab00dd2aed7119694a4ffba23@172.105.117.175:26656,7d569a33ac52fa77f396445196fc65c2360e629d@89.58.56.169:26656,0280ec4c7070bc50a20198eb01a9980abab72185@38.242.146.122:26656"
 sed -i 's|^seeds *=.*|seeds = "'$SEEDS'"|; s|^persistent_peers *=.*|persistent_peers = "'$PEERS'"|' $HOME/.initia/config/config.toml
 sed -i 's|^pruning *=.*|pruning = "custom"|g' $HOME/.initia/config/app.toml
 sed -i 's|^pruning-keep-recent  *=.*|pruning-keep-recent = "100"|g' $HOME/.initia/config/app.toml
