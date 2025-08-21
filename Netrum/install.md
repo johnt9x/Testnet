@@ -151,6 +151,3 @@ npm unlink -g netrum-lite-node
 ```
 
 ✅ You’re done! Your node is now set up, registered, mining, and ready to claim rewards.
-
-👉 Do you want me to also make a **short copy-paste version (only commands)** for quick setup on VPS?
-
