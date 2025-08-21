@@ -50,7 +50,7 @@ netrum
    netrum-check-basename
    ```
    
-## 5. Node Registration
+## 4. Node Registration
 
 1. Check Node ID:
 
@@ -68,7 +68,7 @@ netrum
    netrum-node-register
    ```
    
-## 6. Sync & Mining
+## 5. Sync & Mining
 
 * Sync node with network:
 
@@ -100,7 +100,7 @@ netrum
 
 ---
 
-## 7. Claim Rewards
+## 6. Claim Rewards
 
 * Claim when you have at least **10 NPT tokens**:
 
@@ -111,7 +111,7 @@ netrum
 
 ---
 
-## 8. Other Useful Commands
+## 7. Other Useful Commands
 
 * Import wallet:
 
@@ -139,7 +139,7 @@ netrum
   netrum-update
   ```
 
-## 9. Stop & Remove Node (Cleanup)
+## 8. Stop & Remove Node (Cleanup)
 
 If you want to **stop and delete the node completely**:
 
