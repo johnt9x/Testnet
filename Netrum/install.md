@@ -2,12 +2,10 @@
 <a href="https://discord.gg/2ErsZxXyWg" target="_blank">Join team discord <img src="https://user-images.githubusercontent.com/50621007/176236430-53b0f4de-41ff-41f7-92a1-4233890a90c8.png" width="30"/></a>
 ### Recommended Hardware Requirements 
 
-|   SPEC	    |         FullNode          |       Block Producer      |
-| :---------: | :-----------------------: |:-----------------------:  |    
-|   **CPU**   |        ≥ 4 Cores          |        ≥ 8 Cores          |
-|   **RAM**   |        ≥ 8 GB             |        ≥ 32 GB            |
-| **Storage** |        ≥ 500 GB SSD       |        ≥ 1 TB SSD         |
-| **NETWORK** |        ≥ 100 Mbps         |        ≥ 500 Mbps         |
+* **CPU**: 2+ cores
+* **RAM**: 4 GB (recommended 6 GB+)
+* **Disk**: 50 GB SSD (recommended 100 GB SSD)
+* **Network**: Stable internet, 10 Mbps up & down
 
 ## Guide Manual
 
