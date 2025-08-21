@@ -93,7 +93,6 @@ netrum
   ```
 * After claiming, go to the **official Discord** and verify to get your role.
 * _Reminder: If you don’t claim your reward within 30 days, the NPT tokens will be burned._
----
 
 ## 7. Other Useful Commands
 
