@@ -43,60 +43,46 @@ netrum
    * Buy a domain with **10+ characters** (cheaper: \~0.4 USD)
 
 3. **Check your basename**
-
    ```bash
    netrum-check-basename
    ```
-   
 ## 4. Node Registration
 
 1. Check Node ID:
-
    ```bash
    netrum-node-id
    ```
 2. Sign Node:
-
    ```bash
    netrum-node-sign
    ```
 3. Register Node (requires \~1.5 USD ETH fee):
-
    ```bash
    netrum-node-register
    ```
-   
 ## 5. Sync & Mining
 
 * Sync node with network:
-
   ```bash
   netrum-sync
   ```
-
   View logs:
-
   ```bash
   netrum-sync-log
   ```
-
+  
   *(press `CTRL+C` to exit logs)*
-
+  
 * Start mining:
-
   ```bash
   netrum-mining
   ```
-
   Check mining logs:
-
   ```bash
   netrum-mining-log
   ```
-
+  
   *(press `CTRL+C` to exit logs)*
-
----
 
 ## 6. Claim Rewards
 
