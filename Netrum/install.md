@@ -85,7 +85,6 @@ netrum
   *(press `CTRL+C` to exit logs)*
 
 ## 6. Claim Rewards
-
 * Claim when you have at least **10 NPT tokens**:
 
   ```bash
